@@ -9,7 +9,7 @@ int linear_search(int arr[], int size, int n){
     return -1;
 }
 int main(){
-    int arr[] = {1, 45, 66, 56, 42, 10, 12};
+    int arr[] = {1, 10, 12, 45, 66, 120, 145, 202};
     int size = sizeof(arr) / sizeof(arr[0]) - 1;
     int result = linear_search(arr, size, 10);
     if(result != -1){
